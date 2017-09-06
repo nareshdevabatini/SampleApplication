@@ -1,0 +1,12 @@
+C:\Users\nareshdev\Downloads\Compressed\Application\Application.Model\bin\Debug\Application.Model.dll.config
+C:\Users\nareshdev\Downloads\Compressed\Application\Application.Model\bin\Debug\Application.Model.dll
+C:\Users\nareshdev\Downloads\Compressed\Application\Application.Model\bin\Debug\Application.Model.pdb
+C:\Users\nareshdev\Downloads\Compressed\Application\Application.Model\bin\Debug\EntityFramework.dll
+C:\Users\nareshdev\Downloads\Compressed\Application\Application.Model\bin\Debug\Newtonsoft.Json.dll
+C:\Users\nareshdev\Downloads\Compressed\Application\Application.Model\bin\Debug\EntityFramework.xml
+C:\Users\nareshdev\Downloads\Compressed\Application\Application.Model\bin\Debug\Newtonsoft.Json.xml
+C:\Users\nareshdev\Downloads\Compressed\Application\Application.Model\obj\Debug\Application.Model.dll
+C:\Users\nareshdev\Downloads\Compressed\Application\Application.Model\obj\Debug\Application.Model.pdb
+C:\Users\nareshdev\Downloads\Compressed\Application\Application.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nareshdev\Downloads\Compressed\Application\Application.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nareshdev\Downloads\Compressed\Application\Application.Model\obj\Debug\Application.Model.csprojResolveAssemblyReference.cache
