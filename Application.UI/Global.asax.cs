@@ -1,4 +1,5 @@
-﻿using Application.UI.CastleDI;
+﻿using Application.UI.App_Start;
+using Application.UI.CastleDI;
 using Castle.Windsor;
 using System;
 using System.Collections.Generic;
@@ -33,6 +34,7 @@ namespace Application.UI
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            GlobalConfiguration.Configure(WebApiConfig.Register);
             GlobalConfiguration.Configuration.Services.Replace(
                typeof(IHttpControllerActivator),
                new WindsorActivator(this.container));

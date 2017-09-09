@@ -47,6 +47,6 @@ C:\Users\nareshdev\Documents\Projects\SampleApplication\Application.Common\bin\D
 C:\Users\nareshdev\Documents\Projects\SampleApplication\Application.Common\bin\Debug\System.Web.Http.xml
 C:\Users\nareshdev\Documents\Projects\SampleApplication\Application.Common\bin\Debug\System.Web.Http.WebHost.xml
 C:\Users\nareshdev\Documents\Projects\SampleApplication\Application.Common\obj\Debug\Application.Common.csproj.App.config
-C:\Users\nareshdev\Documents\Projects\SampleApplication\Application.Common\obj\Debug\Application.Common.csprojResolveAssemblyReference.cache
 C:\Users\nareshdev\Documents\Projects\SampleApplication\Application.Common\obj\Debug\Application.Common.dll
 C:\Users\nareshdev\Documents\Projects\SampleApplication\Application.Common\obj\Debug\Application.Common.pdb
+C:\Users\nareshdev\Documents\Projects\SampleApplication\Application.Common\obj\Debug\Application.Common.csprojResolveAssemblyReference.cache

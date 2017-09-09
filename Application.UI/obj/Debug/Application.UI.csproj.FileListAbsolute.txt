@@ -1,3 +1,4 @@
+C:\Users\nareshdev\Documents\Projects\SampleApplication\Application.UI\obj\Debug\Application.UI.csprojResolveAssemblyReference.cache
 C:\Users\nareshdev\Documents\Projects\SampleApplication\Application.UI\bin\ApplicationInsights.config
 C:\Users\nareshdev\Documents\Projects\SampleApplication\Application.UI\bin\roslyn\csc.exe
 C:\Users\nareshdev\Documents\Projects\SampleApplication\Application.UI\bin\roslyn\csc.exe.config
@@ -95,6 +96,5 @@ C:\Users\nareshdev\Documents\Projects\SampleApplication\Application.UI\bin\Micro
 C:\Users\nareshdev\Documents\Projects\SampleApplication\Application.UI\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\nareshdev\Documents\Projects\SampleApplication\Application.UI\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\nareshdev\Documents\Projects\SampleApplication\Application.UI\bin\Microsoft.AI.Web.xml
-C:\Users\nareshdev\Documents\Projects\SampleApplication\Application.UI\obj\Debug\Application.UI.csprojResolveAssemblyReference.cache
 C:\Users\nareshdev\Documents\Projects\SampleApplication\Application.UI\obj\Debug\Application.UI.dll
 C:\Users\nareshdev\Documents\Projects\SampleApplication\Application.UI\obj\Debug\Application.UI.pdb

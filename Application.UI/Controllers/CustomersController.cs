@@ -6,6 +6,7 @@ using System.Web.Http;
 
 namespace Application.UI.Controllers
 {
+    //[RoutePrefix("/api/Home")]
     public class CustomersController : ApiController
     {
         ILogService loggerService;
@@ -21,11 +22,14 @@ namespace Application.UI.Controllers
         /// To validate Customer
         /// </summary>
         /// <returns></returns>
+        
         [EnableCors]
-        [System.Web.Http.AcceptVerbs("GET", "POST")]
-        [System.Web.Http.HttpGet]
-        public CustomerDTO ValidateCustomer(int id, string password)
+        //[AcceptVerbs("GET", "POST")]
+        [HttpGet]
+       // [Route("customer/getall")]
+        public CustomerDTO ValidateCustomer()
         {
+            int id = 1; string password = "123";
             loggerService.Logger().Info("Calling with parameter as : id and password: " + id + " and " + password);
             return _customerService.ValidateCustomer(id, password);
         }

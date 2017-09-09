@@ -19,6 +19,6 @@ C:\Users\nareshdev\Documents\Projects\SampleApplication\Application.Model\bin\De
 C:\Users\nareshdev\Documents\Projects\SampleApplication\Application.Model\bin\Debug\EntityFramework.xml
 C:\Users\nareshdev\Documents\Projects\SampleApplication\Application.Model\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\nareshdev\Documents\Projects\SampleApplication\Application.Model\bin\Debug\Newtonsoft.Json.xml
-C:\Users\nareshdev\Documents\Projects\SampleApplication\Application.Model\obj\Debug\Application.Model.csprojResolveAssemblyReference.cache
 C:\Users\nareshdev\Documents\Projects\SampleApplication\Application.Model\obj\Debug\Application.Model.dll
 C:\Users\nareshdev\Documents\Projects\SampleApplication\Application.Model\obj\Debug\Application.Model.pdb
+C:\Users\nareshdev\Documents\Projects\SampleApplication\Application.Model\obj\Debug\Application.Model.csprojResolveAssemblyReference.cache

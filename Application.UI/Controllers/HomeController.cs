@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Application.Common.Contracts;
+using Application.Service.Contracts;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,8 +10,14 @@ namespace Application.UI.Controllers
 {
     public class HomeController : Controller
     {
+        public HomeController()
+        {
+            
+        }
+
         public ActionResult Index()
         {
+            //var obj = _customerService.ValidateCustomer(1, "asdf");
             return View();
         }
 
