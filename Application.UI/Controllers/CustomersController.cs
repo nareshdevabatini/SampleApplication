@@ -6,32 +6,37 @@ using System.Web.Http;
 
 namespace Application.UI.Controllers
 {
-    //[RoutePrefix("/api/Home")]
+    [RoutePrefix("api/customers")]
     public class CustomersController : ApiController
     {
-        ILogService loggerService;
+       // ILogService loggerService;
         ICustomerService _customerService;
 
-        public CustomersController(ILogService loggerService, ICustomerService customerService)
+        public CustomersController(ICustomerService customerService)
         {
-            this.loggerService = loggerService;
             this._customerService = customerService;
         }
+        //public CustomersController(ILogService loggerService, ICustomerService customerService)
+        //{
+        //    this.loggerService = loggerService;
+        //    this._customerService = customerService;
+        //}
 
         /// <summary>
         /// To validate Customer
         /// </summary>
         /// <returns></returns>
-        
-        [EnableCors]
+
+        //[EnableCors]
         //[AcceptVerbs("GET", "POST")]
+        [Route("customer/getall")]
         [HttpGet]
-       // [Route("customer/getall")]
-        public CustomerDTO ValidateCustomer()
+        public IHttpActionResult ValidateCustomer(int id=1)
         {
-            int id = 1; string password = "123";
-            loggerService.Logger().Info("Calling with parameter as : id and password: " + id + " and " + password);
-            return _customerService.ValidateCustomer(id, password);
+            id = 1; string password = "123";
+            //loggerService.Logger().Info("Calling with parameter as : id and password: " + id + " and " + password);
+            var obj=_customerService.ValidateCustomer(id, password);
+            return Ok(obj);
         }
 
         /// <summary>
@@ -39,11 +44,21 @@ namespace Application.UI.Controllers
         /// </summary>
         /// <returns></returns>
         [EnableCors]
-        public int PostCustomer(CustomerDTO customer)
+        [HttpPost]
+        [Route("postdata")]
+        public IHttpActionResult PostCustomer(CustomerDTO customer)
         {
-            loggerService.Logger().Info("Calling with parameter as : customer: " + customer);
-            return _customerService.SaveOrUpdateCustomer(customer);
+            //loggerService.Logger().Info("Calling with parameter as : customer: " + customer);
+            var obj= _customerService.SaveOrUpdateCustomer(customer);
+            return Ok(obj);
         }
-
+       
+        [HttpPut]
+        [Route("updatePerson")]
+        public void updatePerson()
+        {
+            
+        }
+        
     }
 }

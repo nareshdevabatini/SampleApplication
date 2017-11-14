@@ -8,7 +8,7 @@ import 'rxjs/add/operator/catch';
 @Injectable()
 export class HomeService {
     constructor(private _http: Http) { }
-    private _url: string = "api/Customers/ValidateCustomer";
+    private _url: string = "api/customers/customer/getall";
     private extractData(res: Response) {
         let body = res.json();
         return body || {};

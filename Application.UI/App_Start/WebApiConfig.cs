@@ -1,4 +1,5 @@
 ﻿using System.Web.Http;
+using Application.UI.CustomException;
 
 namespace Application.UI.App_Start
 {
@@ -7,8 +8,8 @@ namespace Application.UI.App_Start
         public static void Register(HttpConfiguration config)
         {
             // Attribute routing.
-            //config.MapHttpAttributeRoutes();
-
+            config.MapHttpAttributeRoutes();
+            config.Filters.Add(new ElmahHandleWebApiErrorAttribute());
             // Convention-based routing.
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",

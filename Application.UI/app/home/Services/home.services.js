@@ -18,7 +18,7 @@ require("rxjs/add/operator/catch");
 var HomeService = /** @class */ (function () {
     function HomeService(_http) {
         this._http = _http;
-        this._url = "api/Customers/ValidateCustomer";
+        this._url = "api/customers/customer/getall";
     }
     HomeService.prototype.extractData = function (res) {
         var body = res.json();
